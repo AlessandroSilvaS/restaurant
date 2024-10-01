@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F5F5DC;
+}
+header{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+header .logo{
+    width: 80px;
+    height: 80px;
+    border: 3px solid #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 15px;
+}
+header .logo .material-symbols-outlined{
+    color: #F28B82;
+    font-size: 60px;
+}
+header .menu-upper{
+    width: 50%;
+}
+header .menu-upper .menu-upper-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+header .menu-upper .menu-upper-list .menu-upper-icon{
+    border-bottom: 4px solid #F28B82;
+}
+header .menu-upper .menu-upper-list a{
+    text-decoration: none;
+    color: black;
+}
+header .button-area{
+    width: 161px;
+    height: 44px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F28B82;
+    color: #ffff;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
+    cursor: pointer;
+}
