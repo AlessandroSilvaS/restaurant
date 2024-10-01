@@ -41,12 +41,24 @@ header .menu-upper .menu-upper-list{
     font-weight: bold;
     cursor: pointer;
 }
-header .menu-upper .menu-upper-list .menu-upper-icon{
-    border-bottom: 4px solid #F28B82;
-}
 header .menu-upper .menu-upper-list a{
     text-decoration: none;
     color: black;
+    position: relative;
+}
+header .menu-upper .menu-upper-list a::after{
+    width: 0px;
+    height: 5px;
+    content: " ";
+    top: 35px;
+    left: 0;
+    background-color: #F28B82;
+    position: absolute;
+    border-radius: 5px;
+    transition: width 0.5s ease-in-out;
+}
+header .menu-upper .menu-upper-list a:hover::after{
+    width: 90px;
 }
 header .button-area{
     width: 161px;
