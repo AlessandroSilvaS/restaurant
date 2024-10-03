@@ -58,7 +58,7 @@ header .menu-upper .menu-upper-list a::after{
     transition: width 0.5s ease-in-out;
 }
 header .menu-upper .menu-upper-list a:hover::after{
-    width: 90px;
+    width: 100%;
 }
 header .button-area{
     width: 161px;
@@ -69,4 +69,48 @@ header .button-area{
     color: #ffff;
     filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
     cursor: pointer;
+}
+/*TODO Start Main*/
+/*? start-post*/
+main {
+    margin: 100px;
+}
+main .post-main{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+main .post-main .text-content{
+    width: 600px;
+}
+main .post-main .text-content h1{
+    font-size: 50px;
+}
+main .post-main .text-content h1 span{
+    color: #F28B82;
+}
+main .post-main .text-content p{
+    font-size: 20px;
+    max-width: 480px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+main .post-main .text-content .post-main-button{
+    width: 161px;
+    height: 44px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F28B82;
+    color: #ffff;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
+    cursor: pointer;
+}
+main .post-main .image-content{
+    width: 400px;
+}
+main .post-main .image-content img{
+    width: 450px;
+    margin-top: 40px;
 }
